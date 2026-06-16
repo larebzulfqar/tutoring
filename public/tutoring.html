@@ -170,32 +170,9 @@
         position: relative;
       }
 
-      /* ===== SECTION NUMBERS ===== */
-      .section-number {
-        position: absolute;
-        top: 40px;
-        left: 24px;
-        font-size: 120px;
-        font-weight: 700;
-        opacity: 0.04;
-        line-height: 1;
-        pointer-events: none;
-        user-select: none;
-        letter-spacing: -0.04em;
-      }
-
-      @media (min-width: 768px) {
-        .section-number {
-          left: max(24px, calc((100vw - 1100px) / 2));
-        }
-      }
-
       /* ===== HERO ===== */
       .hero {
         padding: 120px 0 80px;
-        min-height: calc(100vh - 64px);
-        display: flex;
-        align-items: center;
       }
 
       .hero-content {
@@ -605,11 +582,6 @@
 
         section {
           padding: 60px 0;
-        }
-
-        .section-number {
-          font-size: 80px;
-          top: 24px;
         }
 
         .hero {
